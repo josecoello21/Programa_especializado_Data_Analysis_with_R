@@ -2,7 +2,7 @@
 
 1. Suppose we are interested in studying how much chocolate is consumed by Coursera students, measured in grams per week. After surveying 500 students, we calculate an average of 175 grams per week with a standard deviation of 195 grams per week.  Which of the following is not necessarily true?
 
-**Answer:** $\mu \, = \, 175,\, \sigma \, = \, 195$
+**Answer:** $\mu  =  175,\, \sigma  =  195$
 
 2. Which of the following is false?
 

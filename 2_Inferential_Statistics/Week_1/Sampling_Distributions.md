@@ -23,29 +23,7 @@ Let's load the packages.
 
 ```r
 library(statsr)
-```
-
-```
-## Warning: package 'statsr' was built under R version 4.1.3
-```
-
-```
-## Warning: package 'BayesFactor' was built under R version 4.1.3
-```
-
-```
-## Warning: package 'coda' was built under R version 4.1.3
-```
-
-```r
 library(dplyr)
-```
-
-```
-## Warning: package 'dplyr' was built under R version 4.1.3
-```
-
-```r
 library(ggplot2)
 ```
 
@@ -175,7 +153,7 @@ summary(samp1$area)
 
 ```
 ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-##     492    1181    1518    1475    1724    2687
+##     810    1015    1470    1458    1730    2526
 ```
 
 If we're interested in estimating the average living area in homes in
@@ -191,7 +169,7 @@ samp1 %>%
 ## # A tibble: 1 x 1
 ##   x_bar
 ##   <dbl>
-## 1 1475.
+## 1 1458.
 ```
 
 Depending on which 50 homes you selected, your estimate could be a bit
@@ -224,7 +202,7 @@ ames %>%
 ## # A tibble: 1 x 1
 ##   x_bar
 ##   <dbl>
-## 1 1571.
+## 1 1535.
 ```
 
 Not surprisingly, every time we take another random sample, we get a
@@ -277,7 +255,7 @@ summary(sample_means50$x_bar)
 
 ```
 ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-##    1250    1451    1498    1500    1547    1856
+##    1245    1451    1498    1500    1547    1903
 ```
 
 ## Interlude: Sampling distributions
@@ -329,16 +307,16 @@ sample_means_small
 ## # A tibble: 25 x 2
 ##    replicate x_bar
 ##        <int> <dbl>
-##  1         1 1303.
-##  2         2 1522.
-##  3         3 1690.
-##  4         4 1629.
-##  5         5 1615 
-##  6         6 1314.
-##  7         7 1462.
-##  8         8 1491.
-##  9         9 1456.
-## 10        10 1363.
+##  1         1 1370 
+##  2         2 1287.
+##  3         3 1633.
+##  4         4 1636.
+##  5         5 1416.
+##  6         6 1479.
+##  7         7 1501.
+##  8         8 1458.
+##  9         9 1209.
+## 10        10 1464.
 ## # ... with 15 more rows
 ```
 
@@ -437,7 +415,7 @@ ames %>%
 ## # A tibble: 1 x 1
 ##       avg
 ##     <dbl>
-## 1 188502.
+## 1 168616.
 ```
 
 ::: exercise
@@ -515,7 +493,7 @@ ames %>%
 ## # A tibble: 1 x 1
 ##   avr_price
 ##       <dbl>
-## 1    185360
+## 1   191643.
 ```
 
 ::: exercise
@@ -592,10 +570,10 @@ lapply(X = my_means,
 
 ```
 ## $sample_means50
-## [1] 157.7215
+## [1] 158.3925
 ## 
 ## $sample_means150
-## [1] 144.8216
+## [1] 148.934
 ```
 
 ::: {#license}

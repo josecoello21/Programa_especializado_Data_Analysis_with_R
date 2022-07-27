@@ -24,13 +24,13 @@ scenario?
 
 5. A statistician is studying blood pressure levels of Italians in the age range 75-80. The following is some information about her study:
 
-1. The data were collected by responses to a survey conducted by email, and no measures were taken to get information from those who did not respond to the initial survey email.
+- (I) The data were collected by responses to a survey conducted by email, and no measures were taken to get information from those who did not respond to the initial survey email.
 
-2. The sample observations only make up about 4% of the population.
+- (II) The sample observations only make up about 4% of the population.
 
-3. The sample size is 2,047.
+- (III) The sample size is 2,047.
 
-4. The distribution of sample observations is skewed - the skew is easy to see, although not very extreme.
+- (IV) The distribution of sample observations is skewed - the skew is easy to see, although not very extreme.
 
 The researcher is ready to use the Central Limit Theorem (CLT) in the main part of her analysis. Which aspect of the her study is most likely to prevent her from using the CLT?
 

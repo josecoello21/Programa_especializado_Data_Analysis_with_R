@@ -8,7 +8,7 @@ average they spent 3.5 hours a week communicating with others online.
 Which of the following is the correct set of hypotheses for this 
 scenario?
 
-**Answer:** $H\0: \mu  =  2, H\A: \mu  >  2$
+**Answer:** $H_0: \mu  =  2, H_A: \mu  >  2$
 
 2. Which of the following is the correct definition of the p-value? 
 
@@ -18,7 +18,7 @@ scenario?
 
 **Answer:** $\neq$
 
-4. You set up a two-sided hypothesis test for a population mean $\mu$ with a null hypothesis of $H\0: \mu = 100$. You chose a significance level of $\alpha = 0.05$. The p-value calculated from the data is 0.12, and hence you failed to reject the null hypothesis. Suppose that after your analysis was completed and published, an expert informed you that the true value of $\mu$ is 104. How would you describe the result of your analysis?
+4. You set up a two-sided hypothesis test for a population mean $\mu$ with a null hypothesis of $H_0: \mu = 100$. You chose a significance level of $\alpha = 0.05$. The p-value calculated from the data is 0.12, and hence you failed to reject the null hypothesis. Suppose that after your analysis was completed and published, an expert informed you that the true value of $\mu$ is 104. How would you describe the result of your analysis?
 
 **Answer:** A Type 2 error was made because you failed to reject the null hypothesis but $\mu$ is really not equal to 100.
 

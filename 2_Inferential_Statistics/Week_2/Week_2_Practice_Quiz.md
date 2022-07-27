@@ -4,11 +4,11 @@
 
 Since  2008, chain restaurants in California have been required to display  calorie counts of each menu item. Prior to menus displaying calorie  counts, the average calorie intake of diners at a restaurant was 1100  calories. After calorie counts started to be displayed on menus, a  nutritionist collected data on the number of calories consumed at this  restaurant from a random sample of diners. Do these data provide  convincing evidence of a difference in the average calorie intake of a  diners at this restaurant?
 
-**Answer:** $H\0: \mu  =  1100, H\A: \mu  \neq  1100$
+**Answer:** $H_0: \mu  =  1100, H_A: \mu  \neq  1100$
 
 2. Which of the following is the correct definition of the p-value?
 
-**Answer:** P(observed or more extreme sample statistic | $H\0$ true)
+**Answer:** P(observed or more extreme sample statistic | $H_0$ true)
 
 3. One-sided alternative hypotheses are phrased in terms of: 
 

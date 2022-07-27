@@ -12,7 +12,7 @@ scenario?
 
 2. Which of the following is the correct definition of the p-value? 
 
-**Answer:** P(observed or more extreme sample statistic | $H\0$ true)
+**Answer:** P(observed or more extreme sample statistic | $H_0$ true)
 
 3. Two-sided alternative hypotheses are phrased in terms of:
 
